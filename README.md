@@ -1,3 +1,7 @@
+Depois de instalar o Git local no PC
+Abrir a pasta com Git Bash Here
+No Git fazemos:
+
 Comandos:
 
 ## inicializar um repositorio git
@@ -13,6 +17,27 @@ git add .
 
 ## adicionar um arquivo específico
 git add <index.html> (exemplo)
+
+## para confirmar a adição ou alteração de arquivos, versionando as mudanças, persistindo a nivel local
+git commit -m "o que voce deseja escrever"
+
+## exemplos:
+git commit -m "inicializar repositorio"
+
+git commit -m "add file index.html"
+
+git commit -m "remold javascript files"
+
+## enviar para o repositório remoto
+git push origin main/branch
+
+## verificar momento do versionamento
+git status
+
+## para retirar os arquivos do add, sem ser commit, usamos:
+git rm --cached <file>
+
+
 
 
 
